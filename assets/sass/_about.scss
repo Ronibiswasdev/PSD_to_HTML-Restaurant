@@ -1,0 +1,26 @@
+.about-area {
+    background: url(../images/bg/memphis-mini.png);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    background: url('../images/logo/yellow-title-symbol.png') no-repeat scroll center bottom;
+    padding-bottom: 35px;
+    color: $font-color;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.about-text p {
+    font-size: 16px;
+    font-family: $font-Lato;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    margin-top: 30px;
+}

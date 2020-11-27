@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'Gentium';
+  src: url("../fonts/GentiumBookBasic-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'GentiumBold';
+  src: url("../fonts/GentiumBookBasic-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'YesevaOne';
+  src: url("../fonts/YesevaOne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Gentium", sans-serif;
+  font-weight: bold;
+  color: #4c4c4c;
+  font-size: 16px; }
+
+.alignleft {
+  float: left;
+  margin-right: 15px; }
+
+.alignright {
+  float: right;
+  margin-left: 15px; }
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px; }
+
+a:hover {
+  text-decoration: none; }
+
+a:focus {
+  outline: 0 solid;
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+input:focus,
+button:focus,
+textarea:focus,
+a:focus {
+  outline: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-family: "YesevaOne", sans-serif; }
+
+p:last-child {
+  margin-bottom: 0; }
+
+.top-area-bg {
+  background: url(../images/bg/header_bg.jpg); }
+
+.header-text-area h2 {
+  background: url(../images/logo/line_symbol.png); }
+
+.top-area {
+  position: relative; }
+
+.top-area-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover; }
+
+.logo img {
+  padding: 10px 0; }
+
+.nav.navbar-nav {
+  margin-right: 0 !important;
+  margin: auto; }
+
+.nav.navbar-nav li {
+  position: relative;
+  padding: 0 10px; }
+
+.nav.navbar-nav li.active:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #fff;
+  width: 100%;
+  height: 3px;
+  content: ""; }
+
+.nav.navbar-nav li a {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 41px 15px; }
+
+.navbar.navbar-expand-lg {
+  padding: 0 1rem; }
+
+.social-link a {
+  color: #cc9900;
+  margin: 5px;
+  font-size: 20px; }
+
+.header-text-area h2 {
+  font-size: 70px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 70px; }
+
+.btn-filled {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 18px;
+  margin: 0 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  margin-top: 10px; }
+
+.btn-filled:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #000;
+  width: 100%;
+  content: "";
+  z-index: -1;
+  height: 100%;
+  opacity: .7; }
+
+.btn-filled.bg-white-btn::after {
+  background: #fff;
+  opacity: .5; }
+
+.bg-white-btn {
+  border: 1px solid #fff; }
+
+.header-text-area {
+  padding: 100px 0; }
+
+.top-area-bg:before {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ""; }
+
+.about-area {
+  background: url(../images/bg/memphis-mini.png); }
+
+.section-padding {
+  padding: 80px 0; }
+
+.section-title {
+  background: url("../images/logo/yellow-title-symbol.png") no-repeat scroll center bottom;
+  padding-bottom: 35px;
+  color: #cc9900;
+  margin-bottom: 20px;
+  font-size: 36px; }
+
+.about-text p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  margin-bottom: 30px; }
+
+.about-text {
+  margin-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Gentium';
+    src: url('../fonts/GentiumBookBasic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GentiumBold';
+    src: url('../fonts/GentiumBookBasic-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YesevaOne';
+    src: url('../fonts/YesevaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+$font-Gentium: 'Gentium',
+sans-serif;
+$font-GentiumBold: 'GentiumBold',
+sans-serif;
+$font-YesevaOne: 'YesevaOne',
+sans-serif;
+$font-Lato: 'Lato',
+sans-serif;
