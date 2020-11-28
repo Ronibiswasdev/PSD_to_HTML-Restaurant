@@ -7,18 +7,21 @@
 }
 
 .section-title {
-    background: url('../images/logo/yellow-title-symbol.png') no-repeat scroll center bottom;
+    background: url('../images/logo/yellow-title-symbol.png') scroll;
+    background-position: center bottom;
+    background-repeat: no-repeat;
     padding-bottom: 35px;
-    color: $font-color;
+    color: $font-yellow;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .about-text p {
     font-size: 16px;
-    font-family: $font-Lato;
+    font-family: $font-para;
     font-weight: normal;
     margin-bottom: 30px;
+    line-height: 30px;
 }
 
 .about-text {
