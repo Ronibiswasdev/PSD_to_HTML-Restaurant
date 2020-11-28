@@ -231,4 +231,44 @@ p:last-child {
   font-weight: normal;
   margin-bottom: 30px; }
 
+.food-menu-area {
+  background: url(../images/bg/memphis-mini.png); }
+
+.food-menu-single-item {
+  margin-bottom: 40px; }
+
+.food-menu-single-item h2 {
+  font-size: 20px;
+  border-bottom: 1px solid;
+  color: #cc9900;
+  padding-bottom: 10px;
+  margin: 0;
+  margin-bottom: 5px; }
+
+.food-menu-single-item h2 span {
+  float: right;
+  font-weight: normal; }
+
+.food-menu-single-item p {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal; }
+
+.food-menu-single-item.special {
+  border: 1px solid #e6c564;
+  padding: 10px;
+  position: relative; }
+
+.food-menu-single-item.special:before {
+  content: "Special";
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  background: #e6c564;
+  font-weight: normal;
+  padding: 3px 6px;
+  top: -28px;
+  right: -1px;
+  position: absolute; }
+
 /*# sourceMappingURL=style.css.map */
