@@ -22,7 +22,8 @@
     color: $main-white;
 }
 
-.igredients-text:after {
+.igredients-text:after,
+.testimonials-list:after {
     content: "";
     width: 100%;
     height: 100%;
