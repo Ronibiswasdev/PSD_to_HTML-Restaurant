@@ -1,0 +1,46 @@
+.reservations-are {
+    background: url(../images/bg/memphis-mini.png);
+}
+
+.reservation-text {
+    padding: 0 52px;
+}
+
+.reserv-form {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.reserv-form label {
+    color: $font-yellow;
+    margin: 0;
+}
+
+.reserv-form input {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.reserv-form input:hover {
+    border: none;
+    border: 1px solid $font-yellow;
+}
+
+.row.margin-btm {
+    margin-bottom: 20px;
+}
+
+#select-btn {
+    width: 100%;
+    padding: 8px 10px;
+    color: $black-gray;
+}
+
+.reserv-btn {
+    background: $font-yellow;
+    display: block;
+    margin: 0 auto;
+    color: $main-white;
+    padding: 5px 25px;
+    border: none;
+}

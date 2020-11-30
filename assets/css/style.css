@@ -303,4 +303,74 @@ p:last-child {
   font-size: 30px;
   color: #f2f4f4; }
 
+.reservations-are {
+  background: url(../images/bg/memphis-mini.png); }
+
+.reservation-text {
+  padding: 0 52px; }
+
+.reserv-form {
+  text-align: left;
+  margin-top: 30px; }
+
+.reserv-form label {
+  color: #cc9900;
+  margin: 0; }
+
+.reserv-form input {
+  width: 100%;
+  padding: 5px 10px; }
+
+.reserv-form input:hover {
+  border: none;
+  border: 1px solid #cc9900; }
+
+.row.margin-btm {
+  margin-bottom: 20px; }
+
+#select-btn {
+  width: 100%;
+  padding: 8px 10px;
+  color: #4c4c4c; }
+
+.reserv-btn {
+  background: #cc9900;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  padding: 5px 25px;
+  border: none; }
+
+.footer-area {
+  background: #191919;
+  padding: 50px 0;
+  color: #e9e9e9; }
+
+.footer-widget .section-title {
+  color: #fff;
+  font-size: 21px;
+  background-image: url(../images/logo/little-title-symbol.png); }
+
+.footer-widget p {
+  font-size: 14px; }
+
+.footer-widget strong {
+  color: #fff; }
+
+.footer-cards {
+  color: #fff;
+  margin-top: 22px;
+  font-size: 20px; }
+
+.footer-cards i {
+  margin: 0 2px; }
+
+.footer-icons a {
+  color: #fff;
+  display: inline-block;
+  margin-top: 7px;
+  font-size: 20px;
+  padding: 0 5px;
+  cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */

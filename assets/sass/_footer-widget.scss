@@ -1,0 +1,38 @@
+.footer-area {
+    background: #191919;
+    padding: 50px 0;
+    color: #e9e9e9;
+}
+
+.footer-widget .section-title {
+    color: $main-white;
+    font-size: 21px;
+    background-image: url(../images/logo/little-title-symbol.png);
+}
+
+.footer-widget p {
+    font-size: 14px;
+}
+
+.footer-widget strong {
+    color: $main-white;
+}
+
+.footer-cards {
+    color: $main-white;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.footer-cards i {
+    margin: 0 2px;
+}
+
+.footer-icons a {
+    color: $main-white;
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 20px;
+    padding: 0 5px;
+    cursor: pointer;
+}
