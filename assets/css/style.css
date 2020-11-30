@@ -347,12 +347,13 @@ p:last-child {
   color: #e9e9e9; }
 
 .footer-widget .section-title {
-  color: #fff;
+  color: #e9e9e9;
   font-size: 21px;
   background-image: url(../images/logo/little-title-symbol.png); }
 
 .footer-widget p {
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: "Lato", sans-serif; }
 
 .footer-widget strong {
   color: #fff; }
