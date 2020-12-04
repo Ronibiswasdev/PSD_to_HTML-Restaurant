@@ -4,7 +4,8 @@
 
 #sticky-wrapper {
     z-index: 999;
-    position: relative;
+    position: absolute;
+    width: 100%;
 }
 
 .is-sticky .header-area::after {
@@ -118,7 +119,7 @@
     font-weight: normal;
     text-transform: uppercase;
     border: 1px solid $main-black;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 .btn-filled:after {
@@ -144,6 +145,7 @@
 
 .header-text-area {
     padding: 100px 0;
+    padding-top: 188px;
 }
 
 .top-area-bg:before {
