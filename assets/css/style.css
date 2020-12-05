@@ -125,20 +125,31 @@ p:last-child {
   position: relative;
   padding: 0 10px; }
 
-.nav.navbar-nav li.active:before {
+.nav.navbar-nav li span {
   position: absolute;
   left: 0;
   top: 0;
   background: #fff;
   width: 100%;
   height: 3px;
-  content: ""; }
+  content: "";
+  transform: scaleX(0);
+  transition: 0.3s; }
+
+.nav.navbar-nav li:hover span {
+  transform: scaleX(1); }
+
+.is-sticky .nav.navbar-nav li:hover span {
+  background: #cc9900; }
 
 .nav.navbar-nav li a {
   font-size: 20px;
   text-transform: capitalize;
   color: #fff;
   padding: 41px 15px; }
+
+.is-sticky .nav.navbar-nav li a:hover {
+  color: #cc9900; }
 
 .navbar.navbar-expand-lg {
   padding: 0 1rem; }
@@ -199,6 +210,9 @@ p:last-child {
   width: 100%;
   height: 100%;
   content: ""; }
+
+.is-sticky .nav-link.active {
+  color: #cc9900 !important; }
 
 .about-area {
   background: url(../images/bg/memphis-mini.png); }

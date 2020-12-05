@@ -18,10 +18,10 @@
         });
 
         //jquery scrollspy
-        // $('body').scrollspy({
-        //     target: '.navbar',
-        //     offset: 50
-        // });
+        $('body').scrollspy({
+            target: '.navbar',
+            offset: 100
+        });
 
 
 
