@@ -26,7 +26,15 @@
         // Parallax background
         $('.parallax-bg').jarallax({
             speed: 0.5,
-        })
+        });
+
+
+        //Animation aos
+        AOS.init({
+            duration: 1500,
+            once: true
+        });
+
 
     });
 

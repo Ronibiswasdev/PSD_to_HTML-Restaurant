@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Font-awesome CSS -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Animetion css -->
+    <link rel="stylesheet" href="assets/css/aos.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
@@ -91,13 +93,13 @@
                 </div>
             </div>
         </div>
-        <div class="header-text-area">
+        <div data-aos="fade-down" class="header-text-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <h2>the right ingredients <br/> for the right food</h2>
-                        <a href="" class="btn-filled">BOOK A TABLE</a>
-                        <a href="" class="btn-filled bg-white-btn">SEE THE MENU</a>
+                        <a data-aos="fade-down" data-aos-duration="1800" href="" class="btn-filled">BOOK A TABLE</a>
+                        <a data-aos="fade-down" data-aos-duration="1800" href="" class="btn-filled bg-white-btn">SEE THE MENU</a>
                     </div>
                 </div>
             </div>
@@ -109,14 +111,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5 offset-md-1">
-                    <div class="about-text text-center">
+                    <div data-aos="fade-up" class="about-text text-center">
                         <h2 class="section-title">Just the right food</h2>
                         <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to
                             resist! Stop in today and check us out!</p>
                         <div class="author-img"><img src="assets/images/author-img.png" alt=""></div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div data-aos="slide-left" class="col-md-6">
                     <div class="author-food-img">
                         <img src="assets/images/about-item.png" alt="">
                     </div>
@@ -131,7 +133,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-6">
-                    <div class="igredients-text text-center">
+                    <div data-aos-delay="200" data-aos="fade-up" class="igredients-text text-center">
                         <h2 class="section-title white-sec-title">Fine ingredients</h2>
                         <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to
                             resist! Stop in today and check us out!
@@ -229,7 +231,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <div class="testimonials-list text-center">
+                    <div data-aos-delay="200" data-aos="fade-up" class="testimonials-list text-center">
                         <h2 class="section-title white-sec-title">Guest Reviews</h2>
                         <!--start carousel -->
                         <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
@@ -264,10 +266,10 @@
     <div class="reservations-are section-padding" id="reservations">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div data-aos="slide-right" class="col-md-3">
                     <div class="reserv-img"><img src="assets/images/reserv-img1.jpg" alt=""></div>
                 </div>
-                <div class="col-md-3">
+                <div data-aos-duration="1200" data-aos="slide-right" class="col-md-3">
                     <div class="reserv-img"><img src="assets/images/reserv-img2.jpg" alt=""></div>
                 </div>
                 <div class="col-md-6">
@@ -372,6 +374,7 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <!-- scrolly js -->
     <script src="assets/js/jarallax.js"></script>
+    <script src="assets/js/aos.js"></script>
     <!-- Scripts -->
     <script src="assets/js/app.js"></script>
 </body>
