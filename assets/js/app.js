@@ -23,7 +23,10 @@
             offset: 100
         });
 
-
+        // Parallax background
+        $('.parallax-bg').jarallax({
+            speed: 0.5,
+        })
 
 
 
