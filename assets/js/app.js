@@ -1,7 +1,7 @@
 (function($) {
     "use strict";
 
-    jQuery(document).ready(function($) {
+    $(document).ready(function($) {
 
         //add sticky menu
         $(".header-area").sticky({ topSpacing: 0 });
@@ -28,12 +28,17 @@
             speed: 0.5,
         })
 
+    });
 
+
+    $(window).on('load', function() {
+
+        //preloader
+        $('#preloader').delay(350).fadeOut('slow');
 
 
     });
 
-    jQuery(window).load(function() {
 
-    });
+
 }(jQuery));
